@@ -1,0 +1,14 @@
+.reviews-section img {
+    width: 15%;
+    border-width: thin;
+}
+
+
+/* Styling for review images */
+.reviews-section img {
+    width: 100px;        /* Fixed width for consistency */
+    height: 100px;       /* Fixed height for uniformity */
+    object-fit: cover;   /* Ensure images cover the area without distorting */
+    border-radius: 50%;  /* Make the images circular */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+}

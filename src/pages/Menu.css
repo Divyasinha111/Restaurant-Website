@@ -1,0 +1,282 @@
+.menu-page header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../utils/img/menu-img.jpg);
+    height: 50vh;
+}
+
+
+
+/* Styling for lunch images */
+.menu-page .lunch img {
+    width: 100%;       /* Scale the image to fit its container */
+    max-width: 300px;
+    max-height: 220px;  /* Optional: set a max width for consistency */
+    /* height: 200px;     Fixed height for uniformity */
+    object-fit: cover; /* Maintain aspect ratio and crop excess if necessary */
+    border-radius: 8px; /* Slight rounding of corners for aesthetics */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+}
+
+/* General container styling for lunch */
+.menu-page .lunch .container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+/* Card container styling for lunch */
+.menu-page .lunch .card {
+    width: 300px; /* Consistent card width */
+    margin: 10px auto;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Text styling inside lunch cards */
+.menu-page .lunch .card-body {
+    padding: 15px;
+    text-align: center;
+}
+
+.menu-page .lunch .card-body .card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.menu-page .lunch .card-body .card-text {
+    font-size: 1rem;
+    margin-bottom: 10px;
+    color: #555;
+}
+
+.menu-page .lunch .card-body .card-price {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #28a745;
+}
+
+/* Button styling for lunch section */
+.menu-page .lunch .card button {
+    display: block;
+    margin: 10px auto;
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.menu-page .lunch .card button:hover {
+    background-color: #218838;
+}
+/* Styling for breakfast images */
+.menu-page .breakfast img {
+    width: 100%;       /* Scale the image to fit its container */
+    max-width: 300px;  /* Optional: set a max width for consistency */
+    height: 200px;     /* Fixed height for uniformity */
+    object-fit: cover; /* Maintain aspect ratio and crop excess if necessary */
+    border-radius: 8px; /* Slight rounding of corners for aesthetics */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+}
+
+/* General container styling for breakfast */
+.menu-page .breakfast .container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+/* Card container styling for breakfast */
+.menu-page .breakfast .card {
+    width: 300px; /* Consistent card width */
+    margin: 10px auto;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Text styling inside breakfast cards */
+.menu-page .breakfast .card-body {
+    padding: 15px;
+    text-align: center;
+}
+
+.menu-page .breakfast .card-body .card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.menu-page .breakfast .card-body .card-text {
+    font-size: 1rem;
+    margin-bottom: 10px;
+    color: #555;
+}
+
+.menu-page .breakfast .card-body .card-price {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #28a745;
+}
+
+/* Button styling for breakfast section */
+.menu-page .breakfast .card button {
+    display: block;
+    margin: 10px auto;
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.menu-page .breakfast .card button:hover {
+    background-color: #218838;
+}
+/* Styling for dinner images */
+.menu-page .dinner img {
+    width: 100%;       /* Scale the image to fit its container */
+    max-width: 300px;  /* Optional: set a max width for consistency */
+    height: 200px;     /* Fixed height for uniformity */
+    object-fit: cover; /* Maintain aspect ratio and crop excess if necessary */
+    border-radius: 8px; /* Slight rounding of corners for aesthetics */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+}
+
+/* General container styling for dinner */
+.menu-page .dinner .container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+/* Card container styling for dinner */
+.menu-page .dinner .card {
+    width: 300px; /* Consistent card width */
+    margin: 10px auto;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Text styling inside dinner cards */
+.menu-page .dinner .card-body {
+    padding: 15px;
+    text-align: center;
+}
+
+.menu-page .dinner .card-body .card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.menu-page .dinner .card-body .card-text {
+    font-size: 1rem;
+    margin-bottom: 10px;
+    color: #555;
+}
+
+.menu-page .dinner .card-body .card-price {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #28a745;
+}
+
+/* Button styling for dinner section */
+.menu-page .dinner .card button {
+    display: block;
+    margin: 10px auto;
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.menu-page .dinner .card button:hover {
+    background-color: #218838;
+}
+
+
+
+
+
+/* Styling for dessert images */
+.menu-page .dessert img {
+    width: 100%;       /* Scale the image to fit its container */
+    max-width: 300px;  /* Optional: set a max width for consistency */
+    height: 200px;     /* Fixed height for uniformity */
+    object-fit: cover; /* Maintain aspect ratio and crop excess if necessary */
+    border-radius: 8px; /* Slight rounding of corners for aesthetics */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+}
+
+/* General container styling for dessert */
+.menu-page .dessert .container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+/* Card container styling for dessert */
+.menu-page .dessert .card {
+    width: 300px; /* Consistent card width */
+    margin: 10px auto;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Text styling inside dessert cards */
+.menu-page .dessert .card-body {
+    padding: 15px;
+    background-color:white;
+    text-align: center;
+}
+
+.menu-page .dessert .card-body .card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.menu-page .dessert .card-body .card-text {
+    font-size: 1rem;
+    margin-bottom: 10px;
+    color: #555;
+}
+
+.menu-page .dessert .card-body .card-price {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #28a745;
+}
+
+/* Button styling for dessert section */
+.menu-page .dessert .card button {
+    display: block;
+    margin: 10px auto;
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.menu-page .dessert .card button:hover {
+    background-color: #218838;
+}
