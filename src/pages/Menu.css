@@ -7,13 +7,12 @@
 
 /* Styling for lunch images */
 .menu-page .lunch img {
-    width: 100%;       /* Scale the image to fit its container */
+    width: 100%;       
     max-width: 300px;
-    max-height: 220px;  /* Optional: set a max width for consistency */
-    /* height: 200px;     Fixed height for uniformity */
-    object-fit: cover; /* Maintain aspect ratio and crop excess if necessary */
-    border-radius: 8px; /* Slight rounding of corners for aesthetics */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+    max-height: 220px;  
+    object-fit: cover; 
+    border-radius: 8px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
 }
 
 /* General container styling for lunch */
@@ -26,7 +25,7 @@
 
 /* Card container styling for lunch */
 .menu-page .lunch .card {
-    width: 300px; /* Consistent card width */
+    width: 300px; 
     margin: 10px auto;
     border: 1px solid #ddd;
     border-radius: 8px;
@@ -75,12 +74,12 @@
 }
 /* Styling for breakfast images */
 .menu-page .breakfast img {
-    width: 100%;       /* Scale the image to fit its container */
-    max-width: 300px;  /* Optional: set a max width for consistency */
-    height: 200px;     /* Fixed height for uniformity */
-    object-fit: cover; /* Maintain aspect ratio and crop excess if necessary */
-    border-radius: 8px; /* Slight rounding of corners for aesthetics */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+    width: 100%;       
+    max-width: 300px;  
+    height: 200px;     
+    object-fit: cover; 
+    border-radius: 8px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
 }
 
 /* General container styling for breakfast */
@@ -93,7 +92,7 @@
 
 /* Card container styling for breakfast */
 .menu-page .breakfast .card {
-    width: 300px; /* Consistent card width */
+    width: 300px; 
     margin: 10px auto;
     border: 1px solid #ddd;
     border-radius: 8px;
@@ -142,12 +141,12 @@
 }
 /* Styling for dinner images */
 .menu-page .dinner img {
-    width: 100%;       /* Scale the image to fit its container */
-    max-width: 300px;  /* Optional: set a max width for consistency */
-    height: 200px;     /* Fixed height for uniformity */
-    object-fit: cover; /* Maintain aspect ratio and crop excess if necessary */
-    border-radius: 8px; /* Slight rounding of corners for aesthetics */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+    width: 100%;       
+    max-width: 300px;  
+    height: 200px;     
+    object-fit: cover; 
+    border-radius: 8px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
 }
 
 /* General container styling for dinner */
@@ -160,7 +159,7 @@
 
 /* Card container styling for dinner */
 .menu-page .dinner .card {
-    width: 300px; /* Consistent card width */
+    width: 300px; 
     margin: 10px auto;
     border: 1px solid #ddd;
     border-radius: 8px;
@@ -214,12 +213,12 @@
 
 /* Styling for dessert images */
 .menu-page .dessert img {
-    width: 100%;       /* Scale the image to fit its container */
-    max-width: 300px;  /* Optional: set a max width for consistency */
-    height: 200px;     /* Fixed height for uniformity */
-    object-fit: cover; /* Maintain aspect ratio and crop excess if necessary */
-    border-radius: 8px; /* Slight rounding of corners for aesthetics */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+    width: 100%;      
+    max-width: 300px; 
+    height: 200px;     
+    object-fit: cover; 
+    border-radius: 8px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
 }
 
 /* General container styling for dessert */
@@ -232,7 +231,7 @@
 
 /* Card container styling for dessert */
 .menu-page .dessert .card {
-    width: 300px; /* Consistent card width */
+    width: 300px; 
     margin: 10px auto;
     border: 1px solid #ddd;
     border-radius: 8px;
