@@ -6,31 +6,6 @@ import LunchImg from '../utils/img/lunch.jpg';
 import DinnerImg from '../utils/img/dinner.jpg';
 import DessertImg from '../utils/img/dessert.jpg';
 
-
-// const breakfast = [
-//     {
-//         id: 1,
-//         name: 'English Breakfast',
-//         description: 'smoked bacon, sausage, tomato, mushrooms, black pudding, baked beans, eggs',
-//         price: '£12',
-//         img:"https://i.pinimg.com/736x/dd/04/90/dd049082b917212f25de2a2ed27687b8.jpg"
-//     },
-//     {
-//         id: 2,
-//         name: 'Avocado Toast',
-//         description: 'poached egg, avocado, onion, tomatoes, bread',
-//         price: '£8',
-//         img: "https://i.pinimg.com/736x/d0/bd/dc/d0bddce4efb65033c4422ac3e92c1edf.jpg"
-//     },
-//     {
-//         id: 3,
-//         name: 'Burrito',
-//         description: 'tortilla, egg, cheese, potatoes, pork meat',
-//         price: '£11',
-//         img:"https://i.pinimg.com/736x/71/97/7b/71977b0591022daf373a2c9547dd5669.jpg"
-//     }
-// ];
-
 const breakfast = [
     {
         id: 1,
@@ -56,29 +31,7 @@ const breakfast = [
 ];
 
 
-// const lunch = [
-//     {
-//         id: 1,
-//         name: 'Caesar Salad',
-//         description: 'chicken breast, romaine lettuce, croutons, parmesan',
-//         price: '£15'
-//         img: "https://i.pinimg.com/736x/71/97/7b/71977b0591022daf373a2c9547dd5669.jpg"
-        
-//     },
-//     {
-//         id: 2,
-//         name: 'Spaghetti Carbonara',
-//         description: 'spaghetti, pancetta, garlic, eggs, parmesan, pepper',
-//         price: '£14'
-//         img:"https://i.pinimg.com/736x/71/97/7b/71977b0591022daf373a2c9547dd5669.jpg"
-//     },
-//     {
-//         id: 3,
-//         name: 'Pizza',
-//         description: 'chorizo, italian salami, tomatoes, mushrooms, olives',
-//         price: '£12'
-//     }
-// ];
+
 
 const lunch = [
     {
@@ -86,47 +39,26 @@ const lunch = [
         name: 'Veg Thali',
         description: 'some vegetables, sour chutney, raita, pickle, some tadka, plus, ghee and spices',
         price: '₹300',
-        img: "https://i.pinimg.com/736x/2c/52/86/2c5286ab81b31eaba8a85227324c4568.jpg" // Corrected: added comma before img
+        img: "https://i.pinimg.com/736x/2c/52/86/2c5286ab81b31eaba8a85227324c4568.jpg" 
     },
     {
         id: 2,
         name: 'Chicken Biryani ',
         description: 'fluffy basmati rice & succulent pieces of chicken, spices, herbs.',
         price: '₹400',
-        img: "https://i.pinimg.com/736x/2b/64/e1/2b64e15ac11687bb3074b9f7abc87edd.jpg" // Example img
+        img: "https://i.pinimg.com/736x/2b/64/e1/2b64e15ac11687bb3074b9f7abc87edd.jpg" 
     },
     {
         id: 3,
         name: 'Paneer Tikka Masala ',
-        description: 'paneer, spices, onions, tomatoes, cashews.',
+        description: 'paneer, spices, onions, tomatoes, cashews,spices,ginger paste.',
         price: '₹300',
-        img: "https://i.pinimg.com/736x/ec/7b/89/ec7b89fd9bbb10b4e6b251b84c1f67a5.jpg" // Example img
+        img: "https://i.pinimg.com/736x/ec/7b/89/ec7b89fd9bbb10b4e6b251b84c1f67a5.jpg" 
     }
 ];
 
 
-// const dinner = [
-//     {
-//         id: 1,
-//         name: 'Spicy Beef',
-//         description: 'spicy beef, potatoes, carrots, cheese sauce, spices',
-//         price: '£17'
-//         img: "https://i.pinimg.com/736x/2b/64/e1/2b64e15ac11687bb3074b9f7abc87edd.jpg"
-        
-//     },
-//     {
-//         id: 2,
-//         name: 'Spaghetti Bolognese',
-//         description: 'onion, carrot, celery, minced meat, spaghetti, parmesan',
-//         price: '£15'
-//     },
-//     {
-//         id: 3,
-//         name: 'Chickpea Curry',
-//         description: 'onion, chickpea, garlic, mushrooms, tomatoes, spices',
-//         price: '£12'
-//     }
-// ];
+
 
 const dinner = [
     {
@@ -141,39 +73,19 @@ const dinner = [
         name: 'Daal Makhni',
         description: 'spices, butter & cream,  red kidney beans',
         price: '₹180',
-        img: "https://i.pinimg.com/736x/ef/6e/1b/ef6e1b22f8de024fc8611bc407b6e761.jpg" // Add the image URL here
+        img: "https://i.pinimg.com/736x/ef/6e/1b/ef6e1b22f8de024fc8611bc407b6e761.jpg" 
     },
     {
         id: 3,
         name: 'Chole Kulche ',
         description: 'onion, garlic, tomatoes, spices, green chilli, white peas',
         price: '₹70',
-        img: "https://i.pinimg.com/736x/de/72/00/de720026b920c85c9316dce2b8670977.jpg" // Add the image URL here
+        img: "https://i.pinimg.com/736x/de/72/00/de720026b920c85c9316dce2b8670977.jpg"
     }
 ];
 
 
-// const dessert = [
-//     {
-//         id: 1,
-//         name: 'Lemon Cake',
-//         description: 'flour, sugar, baking powder, lemon',
-//         price: '£9'
-//         img: "https://i.pinimg.com/736x/de/72/00/de720026b920c85c9316dce2b8670977.jpg"
-//     },
-//     {
-//         id: 2,
-//         name: 'Cinnamon Rolls',
-//         description: 'flour, salt, sugar, cinnamon, yeast, sour cream, milk',
-//         price: '£11'
-//     },
-//     {
-//         id: 3,
-//         name: 'Vegan Pancakes',
-//         description: 'flour, sugar, baking powder, soya milk, blueberries',
-//         price: '£8'
-//     }
-// ];
+
 
 const dessert = [
     {
@@ -181,21 +93,21 @@ const dessert = [
         name: 'Chocolate Cake',
         description: 'flour, baking powder, baking soda, and salt ',
         price: '₹200',
-        img: "https://i.pinimg.com/736x/96/67/36/966736b0f455d221d9f3b71f14167b7e.jpg" // Corrected the missing comma here
+        img: "https://i.pinimg.com/736x/96/67/36/966736b0f455d221d9f3b71f14167b7e.jpg" 
     },
     {
         id: 2,
         name: 'Cinnamon Rolls',
         description: 'Flour, cinnamon, sugar, and butter',
         price: '₹150',
-        img: "https://i.pinimg.com/736x/88/3d/20/883d20515cc7720de9e8d4e8c59c833f.jpg" // Added image URL
+        img: "https://i.pinimg.com/736x/88/3d/20/883d20515cc7720de9e8d4e8c59c833f.jpg" 
     },
     {
         id: 3,
         name: 'Trifle',
         description: 'Sherry, custard, fruit, whipped cream',
         price: '₹100',
-        img: "https://i.pinimg.com/736x/69/49/cc/6949ccef69e75987310cb14b22632bc3.jpg" // Added image URL
+        img: "https://i.pinimg.com/736x/69/49/cc/6949ccef69e75987310cb14b22632bc3.jpg" 
     }
 ];
 
