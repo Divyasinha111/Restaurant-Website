@@ -14,10 +14,10 @@ function ViewCart() {
 
     const calculateTotal = (cart) => {
         const total = cart.reduce((sum, item) => {
-            const price = parseFloat(item.price.replace(/[^\d.]/g, "")); // Remove non-numeric characters
-            return sum + (price || 0); // Add the parsed price or 0 if parsing fails
+            const price = parseFloat(item.price.replace(/[^\d.]/g, "")); 
+            return sum + (price || 0); 
         }, 0);
-        setTotalPrice(total.toFixed(2)); // Format to 2 decimal places
+        setTotalPrice(total.toFixed(2)); 
     };
 
     const removeItem = (index) => {
